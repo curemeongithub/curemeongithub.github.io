@@ -15,7 +15,7 @@ body {
   font-family: 'Inter', sans-serif;
   color: $text-color;
   line-height: 1.6;
-  background-color: $beige; // Beige background
+  background-color: $beige !important; // Force beige background
 }
 
 .wrapper {
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: $light-green; // Light green links
+  color: $light-green !important; // Force light green links
   text-decoration: none;
 }
 
@@ -41,12 +41,12 @@ a:hover {
   padding: 20px 0;
   margin-bottom: 40px;
   border-bottom: 1px solid $light-grey;
-  background-color: $beige; // Header background beige
+  background-color: $beige !important; // Force header background beige
   position: sticky;
   top: 0;
   z-index: 1000;
   .wrapper {
-    background-color: transparent; // Make wrapper background transparent in header
+    background-color: transparent !important; // Force wrapper background transparent in header
     box-shadow: none;
   }
 }

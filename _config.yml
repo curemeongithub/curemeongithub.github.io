@@ -1,0 +1,6 @@
+title: "Abhinav Mallick"
+description: "Personal portfolio and thoughts"
+theme: jekyll-theme-primer # A clean, simple default theme to start, we will override styles
+url: "https://curemeongithub.github.io"
+plugins:
+  - jekyll-seo-tag

@@ -10,41 +10,22 @@ title: Abhinav Mallick
 
 I am a final-year Mathematics student interested in solving problems using data and statistics. I'm passionate about leveraging machine learning & AI to develop end-to-end solutions. Feel free to connect :)
 
-## Experience
-
-### Intellimark AI
-**Data Scientist** | March 2025 - Present (9 months)
-Bengaluru, Karnataka, India
-*   Leveraging machine learning & AI to develop end-to-end supply chain optimisation solutions for leading enterprises.
-
-### Sri Venkateswara College, Delhi University
-**Academic Research Intern** | July 2024 - October 2024 (4 months)
-New Delhi, Delhi, India
-*   Authored a research paper "Air Pollution Prediction using AI & ML: A Case of Indian Cities".
-*   Contributed to Geospatial data science & presented findings to 200+ attendees at SVC Research Conclave.
-*   Analyzed various ML model performances and justified recommendations for cross-validation fold sizes.
-*   Explored the integration of exogenous factors to develop a hybrid forecasting model for cities.
-
-### Motherson Technology Services
-**Machine Learning Trainee** | June 2024 - July 2024 (2 months)
-Noida, Uttar Pradesh, India
-*   Built ETL pipelines for large-scale data transformation via Python, reducing training time latency.
-*   Reduced Dimensionality of 340+ features using PCA; Employed Linear Interpolation, One-Hot Encoding & Yeo-Johnson Scaling.
-*   Implemented Sentiment Analysis using TF-IDF on Textual data.
-
 ## Education
 
-### Birla Institute of Technology and Science, Pilani
-*   Master of Technology - MTech, Data Science & Engineering (2021 - 2023)
-
 ### Sri Venkateswara College, Delhi University
-*   B.Sc. Mathematics (Honors with Research) (November 2022 - July 2026)
+**B.Sc. Mathematics (Honors with Research)** | November 2022 - July 2026
+*   *Relevant Coursework:* Calculus, Statistics, Linear Algebra. (Placeholder - Add specifics if desired)
+
+### St. Xavier's College (Autonomous), Kolkata
+**B.Sc. Mathematics Honors** | September 2022 - November 2022
+
+### Delhi Public School Greater Noida
+**High School Diploma, Commerce with Mathematics** | May 2015 - July 2022
 
 ## Skills
 
-*   **Programming Languages:** Python
-*   **Machine Learning:** Deep Learning, Predictive Modeling, ETL Pipelines, Sentiment Analysis, PCA
-*   **Tools & Technologies:** Microsoft Excel, PowerBI, Flask, SQLAlchemy, PostgreSQL, Azure ML, NLTK, Xpath, Regex, Selenium
+*   **Languages:** English (Native/Bilingual), Hindi (Native/Bilingual), French (Elementary)
+*   **Technical:** Deep Learning, Microsoft Excel, Calculus, Python (implied from work ex)
 
 ---
 

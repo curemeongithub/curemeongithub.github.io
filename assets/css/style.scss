@@ -12,10 +12,10 @@ $light-grey: #eee;
 $text-color: #333;
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   color: $text-color;
   line-height: 1.6;
-  background-color: $beige !important; // Force beige background
+  background-color: #fff; // Revert to white background
 }
 
 .wrapper {
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: $light-green !important; // Force light green links
+  color: #0066cc; // Revert to standard link color
   text-decoration: none;
 }
 
@@ -41,12 +41,12 @@ a:hover {
   padding: 20px 0;
   margin-bottom: 40px;
   border-bottom: 1px solid $light-grey;
-  background-color: $beige !important; // Force header background beige
+  background-color: #fff; // Revert header background to white
   position: sticky;
   top: 0;
   z-index: 1000;
   .wrapper {
-    background-color: transparent !important; // Force wrapper background transparent in header
+    background-color: transparent; // Make wrapper background transparent in header
     box-shadow: none;
   }
 }

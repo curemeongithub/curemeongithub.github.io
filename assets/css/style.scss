@@ -119,7 +119,107 @@ blockquote {
 }
 
 /* Spotify Embed */
+
 .spotify-embed {
+
   margin: 40px 0;
+
   text-align: center;
+
 }
+
+
+
+/* Intro Section Layout */
+
+.intro-header {
+
+  display: flex;
+
+  align-items: flex-start; /* Align to top */
+
+  justify-content: space-between;
+
+  margin-bottom: 40px;
+
+  gap: 30px;
+
+}
+
+
+
+.intro-text {
+
+  flex: 1; /* Take up remaining space */
+
+  text-align: left; /* Ensure text is left-aligned */
+
+}
+
+
+
+/* Override h1 top margin for better alignment in flex container */
+
+.intro-text h1 {
+
+  margin-top: 0;
+
+  padding-top: 0;
+
+}
+
+
+
+.intro-image {
+
+  flex-shrink: 0;
+
+}
+
+
+
+.profile-img {
+
+  width: 180px; /* Slightly larger for side layout */
+
+  height: 180px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: block;
+
+}
+
+
+
+/* Responsive: Stack on small screens */
+
+@media (max-width: 600px) {
+
+  .intro-header {
+
+    flex-direction: column-reverse; /* Image on top on mobile */
+
+    align-items: center;
+
+    text-align: center;
+
+  }
+
+  
+
+  .intro-text {
+
+    text-align: center;
+
+    padding-right: 0;
+
+  }
+
+}
+
+

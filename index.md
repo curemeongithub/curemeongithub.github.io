@@ -3,18 +3,26 @@ layout: default
 title: Abhinav Mallick
 ---
 
-# Abhinav Mallick
-### ML Intern @IntellimarkAI | Maths @University of Delhi
-
-## Summary
-
-I am a final-year Mathematics student interested in solving problems using data and statistics. I'm passionate about leveraging machine learning & AI to develop end-to-end solutions. Feel free to connect :)
+<div class="intro-header">
+  <div class="intro-text">
+    <h1>Abhinav Mallick</h1>
+    <h3>ML Intern @IntellimarkAI | Maths @University of Delhi</h3>
+    <p>
+      I am a final-year Mathematics student interested in solving problems using data and statistics. 
+      I'm passionate about leveraging machine learning & AI to develop end-to-end solutions. 
+      Feel free to connect :)
+    </p>
+  </div>
+  <div class="intro-image">
+    <img src="/assets/images/profile.jpg" alt="Abhinav Mallick" class="profile-img">
+  </div>
+</div>
 
 ## Education
 
 ### Sri Venkateswara College, Delhi University
 **B.Sc. Mathematics (Honors with Research)** | November 2022 - July 2026
-*   *Relevant Coursework:* Calculus, Statistics, Linear Algebra. (Placeholder - Add specifics if desired)
+*   *Relevant Coursework:* Calculus, Statistics, Linear Algebra.
 
 ### St. Xavier's College (Autonomous), Kolkata
 **B.Sc. Mathematics Honors** | September 2022 - November 2022

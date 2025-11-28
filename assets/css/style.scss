@@ -3,269 +3,224 @@
 
 @import "jekyll-theme-primer";
 
-// Custom Variables for Colors
-$beige: #F5F5DC;
-$light-green: #90EE90;
-$dark-grey: #333;
-$medium-grey: #555;
-$light-grey: #eee;
-$text-color: #333;
+/* Color Variables */
+:root {
+  --bg-color: #fff;
+  --text-color: #333;
+  --link-color: #0066cc;
+  --header-bg: #fff;
+  --border-color: #eee;
+  --music-box-bg: #f9f9f9;
+  --music-box-border: #eee;
+  --nav-link-color: #555;
+  --nav-link-hover: #000;
+  --medium-grey: #555;
+}
+
+/* Dark Mode Variables */
+body.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --link-color: #66b3ff;
+  --header-bg: #1a1a1a;
+  --border-color: #333;
+  --music-box-bg: #252525;
+  --music-box-border: #333;
+  --nav-link-color: #aaa;
+  --nav-link-hover: #fff;
+  --medium-grey: #aaa;
+}
 
 body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: $text-color;
+  color: var(--text-color);
   line-height: 1.6;
-  background-color: #fff; // Revert to white background
+  background-color: var(--bg-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .wrapper {
-
-  max-width: 800px; /* Slightly wider for better spacing */
-
+  max-width: 800px;
   margin: 0 auto;
-
   padding: 0 20px;
-
-  background-color: transparent; /* Remove white background */
-
-  box-shadow: none; /* Remove shadow */
-
+  background-color: transparent;
+  box-shadow: none;
   padding-bottom: 40px;
-
 }
 
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
 
-
-/* ... (Link styles remain same) ... */
-
-
+a:hover {
+  text-decoration: underline;
+}
 
 /* Header / Nav */
-
-
-
 .site-header {
-
-
-
   padding: 20px 0;
-
-
-
   margin-bottom: 60px;
-
-
-
-  border-bottom: 1px solid $light-grey; /* Add back a subtle border for structure */
-
-
-
-  background-color: #fff;
-
-
-
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--header-bg);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s, border-color 0.3s;
 }
-
-
-
-
-
-
 
 .site-header .wrapper {
-
-
-
-  /* Ensure header has its own wrapper constraints even if main content doesn't */
-
-
-
   max-width: 800px; 
-
-
-
   margin: 0 auto;
-
-
-
   padding: 0 20px;
-
-
-
+  display: flex;
+  justify-content: space-between; /* Align Nav left, Toggle right */
+  align-items: center;
 }
-
-
-
-
-
-
 
 .site-nav {
-
-
-
   display: flex;
-
-
-
-  justify-content: flex-start; /* Align left like the content, or 'center' if preferred */
-
-
-
-  gap: 30px; /* Ensure space between links */
-
-
-
+  justify-content: flex-start;
+  gap: 30px;
   font-size: 16px;
-
-
-
 }
 
+.page-link {
+  color: var(--nav-link-color);
+  font-weight: 600;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
 
+.page-link:hover {
+  color: var(--nav-link-hover);
+  text-decoration: none;
+}
 
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  padding: 5px;
+  transition: transform 0.2s;
+}
 
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
 
+/* Headings */
+h1, h2, h3 {
+  font-weight: 700;
+  color: var(--text-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
 
+h1 { font-size: 2.5rem; margin-top: 0; padding-top: 40px; }
+h2 { font-size: 1.8rem; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+h3 { font-size: 1.4rem; }
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
+li {
+  margin-bottom: 8px;
+}
 
 /* Intro Section Layout */
-
 .intro-header {
-
   display: flex;
-
-  align-items: center; /* Align vertically centered */
-
+  align-items: center;
   justify-content: space-between;
-
   margin-bottom: 60px;
-
-  gap: 50px; /* More gap */
-
+  gap: 50px;
 }
-
-
 
 .intro-text {
-
   flex: 1;
-
   text-align: left;
-
 }
-
-
 
 .intro-text h1 {
-
-  font-size: 3rem; /* Bigger Name */
-
+  font-size: 3rem;
   margin-top: 0;
-
   margin-bottom: 0.2em;
-
 }
-
-
 
 .intro-text h3 {
-
   font-weight: 400;
-
-  color: $medium-grey;
-
+  color: var(--medium-grey);
   margin-top: 0;
-
 }
-
-
 
 .intro-image {
-
   flex-shrink: 0;
-
 }
-
-
 
 .profile-img {
-
-  width: 280px; /* Bigger Image */
-
+  width: 280px;
   height: 280px;
-
   border-radius: 50%;
-
   object-fit: cover;
-
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Soft shadow for image only */
-
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   display: block;
-
 }
-
-
 
 /* Music Box Style */
-
 .music-box {
-
-  background-color: #f9f9f9; /* Light grey box */
-
-  border: 1px solid #eee;
-
+  background-color: var(--music-box-bg);
+  border: 1px solid var(--music-box-border);
   border-radius: 20px;
-
   padding: 30px;
-
   margin-top: 60px;
-
   text-align: center;
-
+  transition: background-color 0.3s, border-color 0.3s;
 }
-
-
 
 .music-box h2 {
-
   margin-top: 0;
-
   font-size: 1.5rem;
-
   margin-bottom: 20px;
-
-  border-bottom: none; /* Remove default heading border */
-
+  border-bottom: none;
 }
 
+.spotify-embed {
+  margin: 40px 0;
+  text-align: center;
+}
 
+/* Footer */
+.site-footer {
+  margin-top: 60px;
+  padding: 30px 0;
+  border-top: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--medium-grey);
+  text-align: center;
+  background-color: transparent;
+}
 
-
-
-/* Responsive: Stack on small screens */
-
+/* Responsive */
 @media (max-width: 600px) {
-
   .intro-header {
-
-    flex-direction: column-reverse; /* Image on top on mobile */
-
+    flex-direction: column-reverse;
     align-items: center;
-
     text-align: center;
-
   }
-
   
-
   .intro-text {
-
     text-align: center;
-
     padding-right: 0;
-
   }
-
 }
-
-

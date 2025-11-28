@@ -42,23 +42,89 @@ body {
 
 /* Header / Nav */
 
+
+
 .site-header {
+
+
 
   padding: 20px 0;
 
-  margin-bottom: 60px; /* More space after nav */
 
-  border-bottom: none; /* Remove border for cleaner look */
 
-  background-color: #fff; /* Keep header white or transparent matching body */
+  margin-bottom: 60px;
 
-  /* ... */
+
+
+  border-bottom: 1px solid $light-grey; /* Add back a subtle border for structure */
+
+
+
+  background-color: #fff;
+
+
 
 }
 
 
 
-/* ... */
+
+
+
+
+.site-header .wrapper {
+
+
+
+  /* Ensure header has its own wrapper constraints even if main content doesn't */
+
+
+
+  max-width: 800px; 
+
+
+
+  margin: 0 auto;
+
+
+
+  padding: 0 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.site-nav {
+
+
+
+  display: flex;
+
+
+
+  justify-content: flex-start; /* Align left like the content, or 'center' if preferred */
+
+
+
+  gap: 30px; /* Ensure space between links */
+
+
+
+  font-size: 16px;
+
+
+
+}
+
+
+
+
 
 
 

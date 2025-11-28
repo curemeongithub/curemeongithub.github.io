@@ -19,9 +19,9 @@ title: Abhinav Mallick
 </div>
 
 <div class="music-box">
-  <h2>i love music, its my tinggg, dm for recs</h2>
+  <h2>i love music, its my tinggg, listen along!</h2>
   <div class="spotify-embed">
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/user/mallickabix10?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpgizVeMN2Qjp?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     <p style="font-size: 0.9rem; margin-top: 15px;">
       You can also visit my <a href="https://open.spotify.com/user/mallickabix10?si=5a5c134c6f3042c0" target="_blank">Spotify Profile</a>.
     </p>

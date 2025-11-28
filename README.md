@@ -1,2 +1,2 @@
 # curemeongithub.github.io
-nerdy footprint
+nerdy online footprint

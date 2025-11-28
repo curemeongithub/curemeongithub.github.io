@@ -6,7 +6,7 @@ title: Abhinav Mallick
 <div class="intro-header">
   <div class="intro-text">
     <h1>Abhinav Mallick</h1>
-    <h3>ML Intern @IntellimarkAI | Maths @University of Delhi</h3>
+    <h3>Math grad (in process) having a crack at Tech</h3>
     <p>
       I am a final-year Mathematics student interested in solving problems using data and statistics. 
       I'm passionate about leveraging machine learning & AI to develop end-to-end solutions. 

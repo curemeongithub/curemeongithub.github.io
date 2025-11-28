@@ -8,8 +8,6 @@ permalink: /interests/
 
 *(This section is for my personal technical hobbies and curiosity)*
 
-*   **Generative Art:** Experimenting with code to create visual art.
-*   **Home Automation:** Playing with IoT devices and smart home setups.
-*   **Open Source:** Contributing to libraries I use daily.
+*   **Something...:** 
 
 *(Edit this file `interests.md` to add your hobbies!)*

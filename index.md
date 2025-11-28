@@ -18,30 +18,14 @@ title: Abhinav Mallick
   </div>
 </div>
 
-## Education
-
-### Sri Venkateswara College, Delhi University
-**B.Sc. Mathematics (Honors with Research)** | November 2022 - July 2026
-*   *Relevant Coursework:* Calculus, Statistics, Linear Algebra.
-
-### St. Xavier's College (Autonomous), Kolkata
-**B.Sc. Mathematics Honors** | September 2022 - November 2022
-
-### Delhi Public School Greater Noida
-**High School Diploma, Commerce with Mathematics** | May 2015 - July 2022
-
-## Skills
-
-*   **Languages:** English (Native/Bilingual), Hindi (Native/Bilingual), French (Elementary)
-*   **Technical:** Deep Learning, Microsoft Excel, Calculus, Python (implied from work ex)
-
----
-
-## Music Mood 🎶
-<div class="spotify-embed">
-  <p>Currently enjoying the vibes. Check out my Spotify profile!</p>
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/user/mallickabix10?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  <p>You can also visit my <a href="https://open.spotify.com/user/mallickabix10?si=5a5c134c6f3042c0" target="_blank">Spotify Profile</a>.</p>
+<div class="music-box">
+  <h2>i love music, its my tinggg, dm for recs</h2>
+  <div class="spotify-embed">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/user/mallickabix10?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <p style="font-size: 0.9rem; margin-top: 15px;">
+      You can also visit my <a href="https://open.spotify.com/user/mallickabix10?si=5a5c134c6f3042c0" target="_blank">Spotify Profile</a>.
+    </p>
+  </div>
 </div>
 
 ---

@@ -3,28 +3,61 @@ layout: default
 title: Abhinav Mallick
 ---
 
-# Who's this?
+# Abhinav Mallick
+### ML Intern @IntellimarkAI | Maths @University of Delhi
 
-Hi! I'm **Abhinav Mallick**. Welcome to my digital garden.
+## Summary
 
-I am currently navigating the world of software engineering and exploring new technologies. This space serves as a collection of my work, thoughts, and technical notes.
+I am a final-year Mathematics student interested in solving problems using data and statistics. I'm passionate about leveraging machine learning & AI to develop end-to-end solutions. Feel free to connect :)
 
-## Technically I like to revolve around
+## Experience
 
-*   **Software Engineering:** Building robust and scalable systems.
-*   **Open Source:** Contributing to and learning from the community.
-*   **Learning:** Always curious about how things work under the hood.
+### Intellimark AI
+**Data Scientist** | March 2025 - Present (9 months)
+Bengaluru, Karnataka, India
+*   Leveraging machine learning & AI to develop end-to-end supply chain optimisation solutions for leading enterprises.
 
-*(Feel free to edit this section with your specific tech stack!)*
+### Sri Venkateswara College, Delhi University
+**Academic Research Intern** | July 2024 - October 2024 (4 months)
+New Delhi, Delhi, India
+*   Authored a research paper "Air Pollution Prediction using AI & ML: A Case of Indian Cities".
+*   Contributed to Geospatial data science & presented findings to 200+ attendees at SVC Research Conclave.
+*   Analyzed various ML model performances and justified recommendations for cross-validation fold sizes.
+*   Explored the integration of exogenous factors to develop a hybrid forecasting model for cities.
 
-## Some fun observations
+### Motherson Technology Services
+**Machine Learning Trainee** | June 2024 - July 2024 (2 months)
+Noida, Uttar Pradesh, India
+*   Built ETL pipelines for large-scale data transformation via Python, reducing training time latency.
+*   Reduced Dimensionality of 340+ features using PCA; Employed Linear Interpolation, One-Hot Encoding & Yeo-Johnson Scaling.
+*   Implemented Sentiment Analysis using TF-IDF on Textual data.
 
-*   I believe in the power of simplicity.
-*   (Add your own quirks here!)
+## Education
+
+### Birla Institute of Technology and Science, Pilani
+*   Master of Technology - MTech, Data Science & Engineering (2021 - 2023)
+
+### Sri Venkateswara College, Delhi University
+*   B.Sc. Mathematics (Honors with Research) (November 2022 - July 2026)
+
+## Skills
+
+*   **Programming Languages:** Python
+*   **Machine Learning:** Deep Learning, Predictive Modeling, ETL Pipelines, Sentiment Analysis, PCA
+*   **Tools & Technologies:** Microsoft Excel, PowerBI, Flask, SQLAlchemy, PostgreSQL, Azure ML, NLTK, Xpath, Regex, Selenium
 
 ---
 
-### Connect
-*   [GitHub](https://github.com/curemeongithub)
-*   [Twitter](https://twitter.com/yourhandle)
+## Music Mood 🎶
+<div class="spotify-embed">
+  <p>Currently enjoying the vibes. Check out my Spotify profile!</p>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/user/mallickabix10?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <p>You can also visit my <a href="https://open.spotify.com/user/mallickabix10?si=5a5c134c6f3042c0" target="_blank">Spotify Profile</a>.</p>
+</div>
+
+---
+
+### Connect with me!
+*   [LinkedIn](https://www.linkedin.com/in/abhinav-mallick/)
 *   [Email](mailto:mallickabix10@gmail.com)
+*   [GitHub](https://github.com/curemeongithub)

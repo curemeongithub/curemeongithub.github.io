@@ -13,24 +13,25 @@ title: Abhinav Mallick
       Feel free to connect :)
     </p>
   </div>
-  <div class="intro-image">
+  <div class="intro-right">
     <img src="/assets/images/profile.jpg" alt="Abhinav Mallick" class="profile-img">
+    <div class="spotify-widget">
+       <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpgizVeMN2Qjp?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
   </div>
 </div>
 
-<div class="music-box">
-  <h2>i love music, its my tinggg, listen along!</h2>
-  <div class="spotify-embed">
-    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpgizVeMN2Qjp?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    <p style="font-size: 0.9rem; margin-top: 15px;">
-      You can also visit my <a href="https://open.spotify.com/user/mallickabix10?si=5a5c134c6f3042c0" target="_blank">Spotify Profile</a>.
-    </p>
+<div class="social-connect">
+  <h3>Connect with me!</h3>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/abhinav-mallick/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="mailto:abhinavmallick03@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://github.com/curemeongithub" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i> GitHub
+    </a>
   </div>
 </div>
-
----
-
-### Connect with me!
-*   [LinkedIn](https://www.linkedin.com/in/abhinav-mallick/)
-*   [Email](mailto:mallickabix10@gmail.com)
-*   [GitHub](https://github.com/curemeongithub)
